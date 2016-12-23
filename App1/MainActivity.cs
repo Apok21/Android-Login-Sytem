@@ -28,6 +28,7 @@ namespace App1
             MyListViewAdapter adapter = new MyListViewAdapter(this, items);
             mylistview.Adapter = adapter;
             mylistview.ItemClick += Mylistview_ItemClick;
+            //mylistview.ItemClick -= Mylistview_ItemClick;
             mylistview.ItemLongClick += Mylistview_ItemLongClick;
 
 
